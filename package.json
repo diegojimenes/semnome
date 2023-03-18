@@ -1,0 +1,11 @@
+{
+  "workspaces": [
+    "client",
+    "admin",
+    "api"
+  ],
+  "name": "naoseionome",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true
+}
