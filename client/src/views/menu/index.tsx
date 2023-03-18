@@ -1,16 +1,14 @@
-import { useEffect } from "react"
-import { useNavigate, useParams } from "react-router-dom"
+// import { useEffect } from "react"
+import { useNavigate } from "react-router-dom"
+
+import Button from "../../components/button"
 
 const Menu = () => {
   const navigate = useNavigate()
-  let { id } = useParams()
-
-  useEffect(() => {
-    console.log(id)
-  }, [])
+  // let { id } = useParams()
 
   return <div>
-    <button onClick={() => navigate('/')}>click</button>
+    <Button onClick={() => navigate('/')} size="large">finish session</Button>
   </div>
 }
 

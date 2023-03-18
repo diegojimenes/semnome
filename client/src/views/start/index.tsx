@@ -1,10 +1,12 @@
 import { useNavigate } from "react-router-dom"
 
-const Menu = () => {
+import Button from "../../components/button"
+
+const Start = () => {
   const navigate = useNavigate()
   return <div>
-    <button onClick={() => navigate('/menu')}>Start</button>
+    <Button onClick={() => navigate('/menu')} size="large">Start</Button>
   </div>
 }
 
-export default Menu
+export default Start
